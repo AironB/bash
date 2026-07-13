@@ -1,5 +1,47 @@
-# bash
-Bash Automations
+# Tech Support, Automation & SysAdmin Portfolio 🛠️⚡
+
+Hello! Welcome to my portfolio focused on IT process optimization, systems administration, and technical support task automation. 
+
+Here you will find scripts, tools, and workflows designed to reduce Mean Time to Resolution (MTTR), eliminate repetitive tasks, and ensure the operational continuity of IT infrastructure.
+
+---
+
+## 🚀 Featured Projects & Automations
+
+### 🪟 Windows Environments & Task Automation (Batch & PowerShell)
+*   **[Corporate Deep Clean & Cache Purge](./windows/Limpieza_Profunda_Corporativa.bat):** A robust script that automates system file cleanup, flushes DNS, and purges corrupted caches from critical business applications like MS Teams (Classic/New), Office, Chrome, and Edge while managing administrative privileges.
+*   **[Automated Network Diagnostics Tool](./windows/Diagnostico_Red.bat):** A one-click triage tool designed for Level 1 technicians. It performs sequential ping tests to isolate local IP, Gateway, and public/private DNS issues, speeding up internet connectivity troubleshooting.
+*   **[Security & System Audit Express](./windows/Auditoria_Seguridad.bat):** Extracts hardware metrics (BIOS serial number/motherboard model), reviews active local user accounts, checks Windows Firewall status, and verifies BitLocker encryption levels. It automatically exports a neat `.txt` report directly to the desktop.
+*   **[Mass Software Deployment & Maintenance](./windows/Despliegue_Software.bat):** Utilizes Windows native Package Manager (WinGet) to perform silent, hands-free installations of core software suites (Chrome, AnyDesk, 7-Zip, VS Code) and handles system-wide bulk software updates with a single command.
+
+### 🐧 Linux Systems Administration (Bash)
+*   **[Critical Services Monitoring](./linux/check-services.sh):** Script that continuously verifies the state of essential services (Apache/Nginx, SSH, Databases) and records timestamps and alerts to a centralized log if a service down-time is detected.
+*   **[Configuration Backup Automation](./linux/backup-configs.sh):** A daily cron-job routine that compresses, packages, and backs up critical configuration directories (`/etc/`) directly to secure local or remote backup storage.
+
+### 🤖 Desktop Automation & Workflows (RPA / UI)
+*   **[Data Entry Automation & Report Processing](./desktop-automation/README.md):** Documentation and implementation design of RPA workflows (Power Automate Desktop) tailored for monitoring user interfaces, scraping metrics from ticketing tools, and automating high-volume data transcription tasks.
+
+---
+
+## 📊 Automation Impact (Success Stories)
+
+| Previous Manual Process | Implemented Solution | Impact / Time Saved |
+| :--- | :--- | :--- |
+| Initial network diagnostics per machine (15-20 min) | Automated triage and network isolation script | **Reduced to less than 30 seconds** per workstation. |
+| Manual or visual monitoring of server service uptime | Bash scripting daemon with automated log alerts | **Eliminated human error** and enabled immediate downtime detection. |
+| Manual report transcription and data entry formatting | UI Interface automation flows (RPA) | **Saved hours of repetitive manual workload** on a weekly basis. |
+
+---
+
+## 🛠️ Technical Skills & Tools
+
+*   **Operating Systems:** Windows 11 / Windows Server, Linux (Debian/Kali environments & server administration).
+*   **Scripting & Automation:** PowerShell, Windows Batch scripting, Bash scripting, Power Automate Desktop (RPA).
+*   **Advanced Support:** Boot troubleshooting (Bootloaders/GRUB recovery), network diagnostics, IT infrastructure management, and service desk workflows.
+
+---
+Contact: [Your Email] | [Your LinkedIn]
+
 # Portafolio de Soporte Técnico, Automatización y SysAdmin 🛠️⚡
 
 ¡Hola! Bienvenido a mi portafolio enfocado en la optimización de procesos de TI, administración de sistemas y automatización de tareas de soporte técnico. 
